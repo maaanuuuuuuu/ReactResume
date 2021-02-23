@@ -18,9 +18,7 @@ const defaultResume: IResume = {
     photoURL: "https://avatars.githubusercontent.com/u/6129790?s=400&u=a0591a0085b4e79110ec6fc8b7ac6a3444e0c424&v=4"
 };
 
-export const ResumeContext = createContext({
-    resume: defaultResume,
-});
+export const ResumeContext = createContext(defaultResume);
 
 export function useResumeContext() {
     return useContext(ResumeContext);
