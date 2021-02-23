@@ -7,7 +7,9 @@ export const Resume = () => {
 
     return (
         <ResumeContext.Provider value={resume}>
-            <Header />
+            <div className="card">
+                <Header />
+            </div>
         </ResumeContext.Provider>
     );
 }

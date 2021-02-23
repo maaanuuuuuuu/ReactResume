@@ -5,9 +5,7 @@ import {Resume} from "./features";
 function App() {
 
     return (
-        <div className="App">
-            <Resume />
-        </div>
+        <Resume />
     )
 }
 
