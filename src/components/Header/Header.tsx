@@ -1,6 +1,9 @@
 import React from 'react';
+import {useResumeContext} from "../../model";
 
 export const Header = () => {
+
+    const resume = useResumeContext();
 
     return (
         <div className="card-title" id="header">
@@ -10,25 +13,25 @@ export const Header = () => {
                         <img src="./QR.png" alt=""/>
                     </div>
                     <div className="photo">
-                        <img src="./photo.png" alt=""/>
+                        <img src={resume.photoURL} alt=""/>
                     </div>
                 </div>
                 <div className="col-sm-8 col-md-8 col-lg-8">
                     <div className="title-block">
-                        <h1>Emmanuel Désir</h1>
+                        <h1>{resume.name}</h1>
                     </div>
                     <div className="social-links">
-                        <a href="https://www.linkedin.com/in/emmanuel-desir-86b465141/">
+                        <a href={resume.linkedinURL}>
                             <i className="fa fa-linkedin" />
                         </a>
-                        <a href="https://github.com/maaanuuuuuuu">
+                        <a href={resume.ghURL}>
                             <i className="fa fa-github" />
                         </a>
-                        <a href="https://stackoverflow.com/users/1514946/manu">
+                        <a href={resume.soURL}>
                             <i className="fa fa-stack-overflow" />
                         </a>
                     </div>
-                    <div className="title-block job-title"><h2>React / Symfony</h2></div>
+                    <div className="title-block job-title"><h2>{resume.subTitle}</h2></div>
                 </div>
             </div>
         </div>

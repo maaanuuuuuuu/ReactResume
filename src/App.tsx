@@ -1,13 +1,12 @@
 import React, { useState } from 'react'
 import './App.css'
-import {Header} from "./components";
+import {Resume} from "./features";
 
 function App() {
 
-
     return (
         <div className="App">
-            <Header />
+            <Resume />
         </div>
     )
 }
