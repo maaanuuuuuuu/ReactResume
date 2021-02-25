@@ -1,5 +1,5 @@
 import React from 'react';
-import {Header, AboutMe, Contacts} from "../components";
+import {Header, AboutMe, Contacts, Skills} from "../components";
 import {ResumeContext} from "../model";
 import resume from "../data/Resume/emmanuel-desir.json";
 
@@ -23,6 +23,9 @@ export const Resume = () => {
                         <a href="./resume.pdf" className="btn btn-secondary">Download Resume</a>
                     </div>
                 </section>
+                {resume.skills !== undefined && resume.skills.length > 0 &&
+                    <Skills skills={resume.skills} />
+                }
             </div>
         </ResumeContext.Provider>
     );

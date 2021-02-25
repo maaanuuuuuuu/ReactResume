@@ -1,5 +1,14 @@
 import { createContext, useContext } from "react";
 
+export interface ISkill {
+    title: string;
+    grade?: number;
+    favourite?: boolean;
+    date?: {
+        since?: number;
+        until?: number;
+    }
+}
 export interface IResume {
     name: string,
     subTitle?: string,
@@ -14,7 +23,8 @@ export interface IResume {
     location?: {
         name: string,
         url?: string,
-    }
+    },
+    skills?: ISkill[]
 
 }
 const defaultResume: IResume = {

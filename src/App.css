@@ -339,6 +339,9 @@ p {
     color: #587eff;
     margin-bottom: 8px;
 }
+.item-period::before {
+    content: "\00a0";
+}
 
 .profile-item .item-small {
     display: inline-block;

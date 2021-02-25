@@ -12,5 +12,110 @@
   },
   "email": "desir.emmanuel@gmail.com",
   "phone": "+33 6 83 62 40 97",
-  "privateSite": "https://maaanuuuuuuu.github.io"
+  "privateSite": "https://maaanuuuuuuu.github.io",
+  "skills": [
+    {
+      "title": "English",
+      "grade": 9
+    },
+    {
+      "title": "French",
+      "grade": 10
+    },
+    {
+      "title": "German",
+      "grade": 9
+    },
+    {
+      "title": "UX Design",
+      "favourite": true
+    },
+    {
+      "title": "React JS",
+      "favourite": true,
+      "date": {
+        "since": 2019
+      }
+    },
+    {
+      "title": "Symfony",
+      "favourite": true,
+      "date": {
+        "since": 2009
+      }
+    },
+    {
+      "title": "Material UI",
+      "favourite": false,
+      "date": {
+        "since": 2017
+      }
+    },
+    {
+      "title": "API Platform",
+      "favourite": false,
+      "date": {
+        "since": 2019
+      }
+    },
+    {
+      "title": "VueJS",
+      "favourite": false,
+      "date": {
+        "since": 2018,
+        "until": 2019
+      }
+    },
+    {
+      "title": "Bootstrap",
+      "favourite": false,
+      "date": {
+        "since": 2013,
+        "until": 2017
+      }
+    },
+    {
+      "title": "SQL",
+      "favourite": false,
+      "date": {
+        "since": 2005
+      }
+    },
+    {
+      "title": "MongoDB",
+      "favourite": false,
+      "date": {
+        "since": 2016
+      }
+    },
+    {
+      "title": "Git",
+      "favourite": false,
+      "date": {
+        "since": 2013
+      }
+    },
+    {
+      "title": "JQuery",
+      "favourite": false,
+      "date": {
+        "since": 2006,
+        "until": 2017
+      }
+    },
+    {
+      "title": "Docker",
+      "favourite": false,
+      "date": {
+        "since": 2016
+      }
+    },
+    {
+      "title": "Apache",
+      "favourite": false,
+      "date": {
+        "since": 2007
+      }
+    }
+  ]
 }
