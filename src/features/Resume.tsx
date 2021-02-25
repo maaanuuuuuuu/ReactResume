@@ -19,6 +19,9 @@ export const Resume = () => {
                             <Contacts />
                         </div>
                     </div>
+                    <div className="download-resume">
+                        <a href="./resume.pdf" className="btn btn-secondary">Download Resume</a>
+                    </div>
                 </section>
             </div>
         </ResumeContext.Provider>
