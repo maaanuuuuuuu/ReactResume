@@ -37,7 +37,7 @@ export const Skills = ({skills}: {skills: ISkill[]}) => {
                         <span className="level">
                             {skill.grade !== undefined && stars(skill.grade)}
                             {skill.favourite &&
-                                <i class="fa fa-heart"/>
+                                <i className="fa fa-heart"/>
                             }
                         </span>
                         {skill.date &&
@@ -64,4 +64,5 @@ export const Skills = ({skills}: {skills: ISkill[]}) => {
             })}
         </section>
     );
-}
+};
+
