@@ -117,5 +117,44 @@
         "since": 2007
       }
     }
+  ],
+  "education": [
+    {
+      "title": "EISTI - International School of Computer Science and Mathematics Engineering",
+      "date": "2007-2011",
+      "location": "Cergy and Pau, FRANCE",
+      "shortDescription": "Master's Degree in Engineering of Nomadic Information Systems."
+    },{
+      "title": "IUT - University Institute of Technology",
+      "date": "2005-2007",
+      "location": "Annecy, FRANCE",
+      "shortDescription": "University Degree in Networks and Telecommunication."
+    },{
+      "title": "High school - Baccalauréat in Science and Mathematics (S)",
+      "date": "2004",
+      "location": "Hamburg, GERMANY,
+      "shortDescription": "French High School Diploma."
+    },{
+      "title": "Enablon - Internship as a Sofware Engineer",
+      "date": "2011",
+      "location": "Paris, FRANCE",
+      "shortDescription": "Developer on <b>Global eXchange Platform</b>, a supply-chain virtualization software to generate full organization wide reports."
+    },{
+      "title": "Arianespace - Internship as a Web Developer",
+      "date": "2009",
+      "location": "Kourou, FRANCE",
+      "shortDescription": "Developer of an intranet web site to manage fuel stocks on the Kourou European spaceport."
+    },{
+      "title": "PCB Electronics, CFAM Electronics - Internships as a Web Developer",
+      "date": "2007 and 2008",
+      "location": "Annecy and Grenoble, FRANCE",
+      "shortDescription": "Developer of these small businesses' e-commerce websites for selling electronic equipments."
+    },{
+      "title": "EADS - Internship as a Network Technician",
+      "date": "2006",
+      "location": "Bremen, GERMANY",
+      "shortDescription": "Maintaining and fixing various network and computer issues in the center of competence for space transportation."
+    }
+
   ]
 }
