@@ -9,6 +9,12 @@ export interface ISkill {
         until?: number;
     }
 }
+export interface IPosition {
+    "title": string;
+    "date": string;
+    "location": string;
+    "shortDescription": string;
+}
 export interface IResume {
     name: string,
     subTitle?: string,
@@ -24,7 +30,8 @@ export interface IResume {
         name: string,
         url?: string,
     },
-    skills?: ISkill[]
+    skills?: ISkill[],
+    education?: IPosition[]
 
 }
 const defaultResume: IResume = {

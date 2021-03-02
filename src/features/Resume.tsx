@@ -2,6 +2,7 @@ import React from 'react';
 import {Header, AboutMe, Contacts, Skills} from "../components";
 import {ResumeContext} from "../model";
 import resume from "../data/Resume/emmanuel-desir.json";
+import {Education} from "../components/Education";
 
 export const Resume = () => {
 
@@ -26,6 +27,15 @@ export const Resume = () => {
                 {resume.skills !== undefined && resume.skills.length > 0 &&
                     <Skills skills={resume.skills} />
                 }
+                <section className="resume">
+                    <div className="page-content">
+                        <div className="row">
+                            <div className="col-sm-6 col-md-6 col-lg-6">
+                                <Education />
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
         </ResumeContext.Provider>
     );
