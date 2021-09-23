@@ -3,6 +3,7 @@ import {Header, AboutMe, Contacts, Skills} from "../components";
 import {ResumeContext} from "../model";
 import resume from "../data/Resume/emmanuel-desir.json";
 import {Education} from "../components/Education";
+import {Experience} from "../components/Experience";
 
 export const Resume = () => {
 
@@ -30,8 +31,11 @@ export const Resume = () => {
                 <section className="resume">
                     <div className="page-content">
                         <div className="row">
-                            <div className="col-sm-6 col-md-6 col-lg-6">
+                            <div className="col-sm-12 col-md-6 col-lg-6">
                                 <Education />
+                            </div>
+                            <div className="col-sm-12 col-md-6 col-lg-6">
+                                <Experience />
                             </div>
                         </div>
                     </div>

@@ -123,37 +123,109 @@
       "title": "EISTI - International School of Computer Science and Mathematics Engineering",
       "date": "2007-2011",
       "location": "Cergy and Pau, FRANCE",
-      "shortDescription": "Master's Degree in Engineering of Nomadic Information Systems."
+      "role": [
+        {
+          "shortDescription": "Master's Degree in Engineering of Nomadic Information Systems."
+        }
+      ]
     },{
       "title": "IUT - University Institute of Technology",
       "date": "2005-2007",
       "location": "Annecy, FRANCE",
-      "shortDescription": "University Degree in Networks and Telecommunication."
+      "role": [
+        {
+          "shortDescription": "University Degree in Networks and Telecommunication."
+        }
+      ]
     },{
       "title": "High school - Baccalauréat in Science and Mathematics (S)",
       "date": "2004",
       "location": "Hamburg, GERMANY",
-      "shortDescription": "French High School Diploma."
+      "role": [
+        {
+          "shortDescription": "French High School Diploma."
+        }
+      ]
     },{
       "title": "Enablon - Internship as a Sofware Engineer",
       "date": "2011",
       "location": "Paris, FRANCE",
-      "shortDescription": "Developer on <b>Global eXchange Platform</b>, a supply-chain virtualization software to generate full organization wide reports."
+      "role": [
+        {
+          "shortDescription": "Developer on <b>Global eXchange Platform</b>, a supply-chain virtualization software to generate full organization wide reports."
+        }
+      ]
     },{
       "title": "Arianespace - Internship as a Web Developer",
       "date": "2009",
       "location": "Kourou, FRANCE",
-      "shortDescription": "Developer of an intranet web site to manage fuel stocks on the Kourou European spaceport."
+      "role": [
+        {
+          "shortDescription": "Developer of an intranet web site to manage fuel stocks on the Kourou European spaceport."
+        }
+      ]
     },{
       "title": "PCB Electronics, CFAM Electronics - Internships as a Web Developer",
       "date": "2007 and 2008",
       "location": "Annecy and Grenoble, FRANCE",
-      "shortDescription": "Developer of these small businesses' e-commerce websites for selling electronic equipments."
+      "role": [
+        {
+          "shortDescription": "Developer of these small businesses' e-commerce websites for selling electronic equipments."
+        }
+      ]
     },{
       "title": "EADS - Internship as a Network Technician",
       "date": "2006",
       "location": "Bremen, GERMANY",
-      "shortDescription": "Maintaining and fixing various network and computer issues in the center of competence for space transportation."
+      "role": [
+        {
+          "shortDescription": "Maintaining and fixing various network and computer issues in the center of competence for space transportation."
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Front-end Architect",
+      "date": "Since 2018",
+      "location": "Enablon, a Wolters Kluwer Business",
+      "role": [
+        {
+          "shortDescription": "Co-creator and Front-end lead developer of Enablon Pulse, the first AI based product of Enablon, used to predict incidents on production sites and visualize them on a map.",
+          "skills": ["ReactJS", "TypeScript", "API_Platform", "Symfony_4"],
+          "longDescription": "The Front-end is a ReactJS, TypeScript, Single Page Application. I also developed the authentication/authorization service of this Service Oriented Platform using the APIPlatform framework based on Symfony4."
+        }
+      ]
+    },
+    {
+      "title": "Fullstack Web Developer",
+      "date": "2015 - 2018",
+      "location": "Enablon",
+      "role": [
+        {
+          "shortDescription": "Developer, deployer and maintainer of Enablon One, the Portal for accessing Enablon’s Saas Services and client’s usage analytics."
+        }
+      ]
+    },
+    {
+      "title": "Fullstack Web Developer",
+      "date": "2013 - 2015",
+      "location": "Wizness, an Enablon affiliate company",
+      "role": [
+        {
+          "shortDescription": "Developer, deployer and maintainer of Enablon Publisher, a Content Management System allowing users to build responsive web based Environment Health and Safety reports using data from multiple sources."
+        }
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "date": "2011 - 2013",
+      "location": "Enablon",
+      "role": [
+        {
+          "shortDescription": "Developer on Wizness, a social network for EHS professionals to share best practices and news."
+        }
+      ]
     }
   ]
 }

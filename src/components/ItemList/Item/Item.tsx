@@ -12,8 +12,13 @@ export const Item = ({item}: {item: IPosition}) => {
             </h4>
             <span className="item-period">{item.date}</span>
             <span className="item-small">{item.location}</span>
-            <p className="item-description" dangerouslySetInnerHTML={{__html: item.shortDescription}}>
-            </p>
+            {
+                item.role.map(r => {
+                    return (
+                        <p className="item-description" dangerouslySetInnerHTML={{__html: r.shortDescription}}></p>
+                    )
+                })
+            }
         </div>
     );
 }
